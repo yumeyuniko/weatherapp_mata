@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## [JSON and XML Weather API and Geolocation Developer API](https://www.weatherapi.com/)
+
+![](https://res.cloudinary.com/djnhw4aey/image/upload/v1648305040/weather_lfnhqa.png)
