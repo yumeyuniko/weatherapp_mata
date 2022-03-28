@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import styled from 'styled-components';
 function Search({ setSearchResults }) {
   const [search, setSearch] = useState('');
 
@@ -10,7 +10,7 @@ function Search({ setSearchResults }) {
   };
 
   return (
-    <div>
+    <StyledSearch>
       <form onSubmit={onSubmit}>
         <input
           type="text"
@@ -19,8 +19,18 @@ function Search({ setSearchResults }) {
           onChange={(e) => setSearch(e.target.value)}
         />
       </form>
-    </div>
+    </StyledSearch>
   );
 }
 
+const StyledSearch = styled.div`
+  margin-bottom: 30px;
+
+  input {
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 20px;
+  }
+`;
 export default Search;

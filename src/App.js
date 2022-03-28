@@ -12,14 +12,14 @@ import Search from './components/Search';
 import CurrentWeather from './components/CurrentWeather';
 
 function App() {
-  const [searchResults, setSearchResults] = useState('london');
+  const [searchResults, setSearchResults] = useState('Fukui');
   const url = `http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_WEATHER_KEY}&q=${searchResults}&days=10&aqi=yes&alerts=no`;
   const { data } = useRequest(url);
   console.log(data);
   return (
     <div className="App">
       <ToastContainer />
-      <h2>WeatherApp</h2>
+      <h2 style={{ margin: '30px 0px' }}>WeatherApp</h2>
       {Object.keys(data).length !== 0 && (
         <>
           <Search setSearchResults={setSearchResults} />
