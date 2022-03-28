@@ -72,3 +72,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## [JSON and XML Weather API and Geolocation Developer API](https://www.weatherapi.com/)
 
 ![](https://res.cloudinary.com/djnhw4aey/image/upload/v1648305040/weather_lfnhqa.png)
+
+![](https://res.cloudinary.com/djnhw4aey/image/upload/v1648452150/readme_mtcjsp.png)
+
+![](https://res.cloudinary.com/djnhw4aey/image/upload/v1648452203/error_qzakph.gif)
+
+Thanks. It's very helpful!
+
+[Build a Weather App with React](https://youtu.be/uQITxV30EUs)

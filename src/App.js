@@ -10,6 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 //Components
 import Search from './components/Search';
 import CurrentWeather from './components/CurrentWeather';
+import Forecast from './components/Forecast';
 
 function App() {
   const [searchResults, setSearchResults] = useState('Fukui');
@@ -24,6 +25,7 @@ function App() {
         <>
           <Search setSearchResults={setSearchResults} />
           <CurrentWeather data={data} />
+          <Forecast data={data} />
         </>
       )}
     </div>
